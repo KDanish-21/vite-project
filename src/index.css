@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; 
+  color: #c9d1d9; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h2 {
+  color: #58a6ffca; 
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+div {
+
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+input,
+select {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #161b22; 
+  border: 1px solid #30363d; 
+  border-radius: 4px;
+  font-size: 16px;
+  color: #c9d1d9;
+  text-align: center;
+}
+
+input:focus,
+select:focus {
+  border-color: #58a6ff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(88, 166, 255, 0.5);
+}
+
+button {
+  padding: 10px 14px;
+  background-color: #161b22; 
+  color: #58a6ff; 
+  border: 1px solid #58a6ff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #58a6ff; 
+  color: #0d1117; 
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 16px;
+  width: 300px;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #161b22; 
+  border: 1px solid #30363d; 
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+li:hover {
+  background-color: #21262d; 
+  transform: translateY(-2px);
+}
+
+li button {
+  background-color: #161b22;
+  color: #ff7b72; 
+  border: 1px solid #ff7b72;
+}
+
+li button:hover {
+  background-color: #ff7b72;
+  color: #0d1117;
+}
+
+nav {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #161b22; 
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff7b72;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.error {
+  border: 2px solid #ff7b72;
+  background-color: #2d1b1b;
+}
+
+.error-message {
+  color: #ff7b72;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
